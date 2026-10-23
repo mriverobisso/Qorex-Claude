@@ -1,0 +1,3 @@
+# Skills que deben venir de un repo concreto aunque ya exista otra con el mismo nombre.
+# Formato: nombre-skill|nombre-repo (el nombre del repo sin .git)
+design-system|ui-ux-pro-max-skill

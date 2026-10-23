@@ -21,7 +21,9 @@ grep -vE '^[[:space:]]*(#|$)' "$REPO_DIR/repos-externos.txt" | while read -r url
   added=0
   while read -r f; do
     sd=$(dirname "$f"); n=$(basename "$sd")
-    if [ ! -e "$SKILLS_DIR/$n" ]; then cp -R "$sd" "$SKILLS_DIR/"; added=$((added+1)); fi
+    if grep -qx "$n|$name" "$REPO_DIR/overrides.txt" 2>/dev/null; then
+      rm -rf "$SKILLS_DIR/$n"; cp -R "$sd" "$SKILLS_DIR/"; echo "  reemplazada $n (desde $name)"
+    elif [ ! -e "$SKILLS_DIR/$n" ]; then cp -R "$sd" "$SKILLS_DIR/"; added=$((added+1)); fi
   done < <(find "$dst" -name SKILL.md -not -path '*/.git/*')
   echo "  $name: $added nuevas"
 done
