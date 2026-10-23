@@ -2,3 +2,4 @@
 # Al agregar uno: añadir la línea, anotar en REGISTRO.md, commit y push.
 https://github.com/inbharatai/claude-skills.git
 https://github.com/w95/awesome-claude-corporate-skills.git
+https://github.com/vercel-labs/agent-skills.git
