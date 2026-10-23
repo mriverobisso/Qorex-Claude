@@ -8,3 +8,4 @@ Solo agregar al final: `- AAAA-MM-DD · <nombre> · <qué se agregó/cambió> ·
 - 2026-10-23 · Mario · Repo externo: vercel-labs/agent-skills (9 skills: React/Next.js, React Native, diseño web, despliegue en Vercel) · desarrollo web
 - 2026-10-23 · Mario · Repo externo: nextlevelbuilder/ui-ux-pro-max-skill (ui-ux-pro-max, design, banner-design, ui-styling, brand, slides; design-system omitida por duplicado) · diseño UI/UX y marca
 - 2026-10-23 · Mario · design-system ahora viene de ui-ux-pro-max-skill (overrides.txt); sync.sh soporta reemplazos forzados · mejor base para manuales de marca
+- 2026-10-23 · Mario · scripts/sync.ps1: versión de la sincronización para Windows/PowerShell · Marcos usa Windows

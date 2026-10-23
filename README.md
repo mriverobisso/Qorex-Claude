@@ -9,6 +9,13 @@ git clone https://github.com/mriverobisso/Qorex-Claude.git ~/qorex-skills
 ~/qorex-skills/scripts/sync.sh
 ```
 
+## Windows (PowerShell)
+```powershell
+git clone https://github.com/mriverobisso/Qorex-Claude.git $HOME\qorex-skills
+powershell -ExecutionPolicy Bypass -File $HOME\qorex-skills\scripts\sync.ps1
+```
+Para actualizar, repetir solo la segunda línea.
+
 ## Cada día / cuando el otro avise de un cambio
 ```bash
 ~/qorex-skills/scripts/sync.sh
