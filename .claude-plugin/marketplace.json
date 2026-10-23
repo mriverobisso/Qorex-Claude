@@ -1,0 +1,7 @@
+{
+  "name": "qorex",
+  "owner": { "name": "Qorex Team" },
+  "plugins": [
+    { "name": "qorex-skills", "source": "./", "description": "Skills compartidas del Qorex Team." }
+  ]
+}

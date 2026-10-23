@@ -1,0 +1,6 @@
+# Servidores MCP del equipo (nombre|comando). sync.sh los agrega a Claude Code si faltan.
+memory|npx -y @modelcontextprotocol/server-memory
+sequential-thinking|npx -y @modelcontextprotocol/server-sequential-thinking
+fetch|uvx mcp-server-fetch
+time|uvx mcp-server-time
+git|uvx mcp-server-git
